@@ -1,0 +1,231 @@
+.aboutus_s
+{
+width:90%; 
+margin-top: 50px;
+vertical-align: baseline;
+box-shadow: 5px 5px 8px 5px #888888;
+position: relative;
+left:4%;
+background-color: aqua;
+}  
+  .aboutuscard_s
+  {
+
+    width: 100%;
+    text-align: left; 
+    display:inline-block;
+    height:495px;
+    margin:17px;
+    padding: 10px;
+  }
+.aboutuscardimgdiv_s{
+    
+   
+    max-width: 520px;
+    margin-right: 0px;
+    text-align: center;
+    font-family: arial;
+  
+   float:left;
+    
+  }
+  .aboutuscardimg_s{
+    height:15vw;
+    object-fit: cover;
+    width: 100%;
+    padding-top:3%;
+    display: inline; 
+  }  
+  .aboutuscardtext_s
+{
+
+
+  max-width: 520px;
+  margin-right: 20px;
+  text-align: left;
+  font-family: arial;
+ float:left;
+
+
+}
+.aboutus_s p
+{
+    font-size: 19px;
+} 
+.mainabout {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    margin:80px;
+    height:90%;
+    position: relative;
+    top:-15%;
+    left:-8%;
+ 
+}
+.mainaboutcard {
+    flex-grow: 1;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+    height: 410px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #9ed15c;
+}
+@media screen and (max-width: 540px) {
+  .aboutus_s
+{
+width:90%; 
+margin-top: 150px;
+vertical-align: baseline;
+box-shadow: 5px 5px 8px 5px #888888;
+position: relative;
+left:1%;
+top:10%
+} 
+  
+
+.aboutuscardimgdiv_s{
+    
+   
+    max-width: 20%;
+    margin-right: 0px;
+    text-align: center;
+    font-family: arial;
+   clear:both;
+    
+  }
+  .aboutuscardimg_s{
+    height:15vw;
+    object-fit: cover;
+    width: 100%;
+    padding-top:3%;
+    display: inline; 
+  }  
+  .aboutuscardtext_s
+{
+
+
+  max-width: 520px;
+  margin-right: 10px;
+  text-align: left;
+  font-family: arial;
+ float:left;
+}
+.aboutus_s p
+{
+    font-size: 13px;
+} 
+.mainabout {
+    display: block;
+     width: 100%;
+    margin:0px;
+    height:90%;
+    position: relative;
+    top:95%;
+    left:0%;
+ 
+}
+.mainaboutcard {
+    
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    height: 410px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #0161b8;
+}
+  }
+  @media screen and (max-width: 540px) {
+    .aboutus_s
+  {
+  width:90%; 
+  margin-top: 150px;
+  margin-left: 1%;
+  vertical-align: baseline;
+  box-shadow: 5px 5px 5spx 5px #888888;
+  position: relative;
+  left:4.5%;
+  top:-83px;
+  padding-bottom: 50px; 
+
+} 
+    
+    .aboutuscard_s
+    {
+  
+      width: 90%;
+      text-align: center; 
+      display:inline-block;
+      height:1050px;
+      margin:14px;
+      padding: 10px;
+     
+    }
+  .aboutuscardimgdiv_s{
+      
+      
+      max-width: 100%;
+      margin-right: 0px;
+      text-align: center;
+      font-family: arial;
+     clear:both;
+      
+    }
+    .aboutuscardimg_s{
+      height:15vw;
+      object-fit: cover;
+      width: 100%;
+      padding-top:3%;
+      display: inline; 
+      position:relative;
+      left:-6px
+    }  
+    .aboutuscardtext_s
+  {
+  
+  
+    max-width: 90%;
+    margin-right: 0px;
+    text-align: left;
+    font-family: arial;
+   clear:both;
+
+
+  }
+  .aboutus_s p
+  {
+      font-size: 20px;
+  } 
+  .mainabout {
+      display: block;
+      width: 100%;
+      margin-top:100px;
+      height:90%;
+      position:relative;
+      top:290%;
+      left:0%;
+
+   
+  }
+  .mainaboutcard {
+     
+      width: 85%;
+       position:relative;
+       top:40px;
+      text-align: center;
+      display: block;
+      height: 410px;
+      margin-bottom: 15px;  
+      margin-top: 25px;  
+      margin-left:0.2;  
+      padding: 10px;
+      background-color: #0161b8;
+  }
+    }
+     
+     
+
+  

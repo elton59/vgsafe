@@ -1,0 +1,168 @@
+.appointment
+{
+ height:190%;
+ width: 1100px;
+ text-align: center; 
+ display:inline-block;
+ box-shadow: 5px 5px 8px 5px #888888;
+ margin:17px;
+padding: 10px;
+position:absolute;
+top:50%;
+left:2%;
+padding: 20px;
+
+}
+
+.formgroup
+{
+  width:50%;
+  display: inline-block;
+  margin-bottom:50px;
+  text-align: left;
+}
+input, select, textarea{
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  padding: 12px 12px 12px 0;
+  margin: 10px;
+  
+ 
+}
+
+label {
+
+  display: inline-block;
+  text-align: right;
+}
+
+input[type=submit] {
+ 
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color:#9ed15c ;
+    color: #0161b8;
+}
+
+
+
+.container {
+  border-radius: 5px;
+  background-color:#0161b8 ;
+  padding: 20px;
+  height:90%;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 540px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .appointment
+{
+  
+ height:280%;
+ width: 90%;
+ text-align: center; 
+ display:inline-block;
+ box-shadow: 5px 5px 8px 5px #888888;
+ margin:1px;
+padding: 10px;
+position:absolute;
+top:22%;
+left:2%;
+
+
+}
+
+.formgroup
+{
+  width:100%;
+  display: inline-block;
+  margin-bottom:50px;
+  text-align: left;
+}
+input, select, textarea{
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  padding: 12px 12px 12px 0;
+  margin: 10px;
+  
+ 
+}
+
+label {
+
+  display: inline-block;
+  text-align: right;
+}
+
+input[type=submit] {
+ 
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color:#9ed15c ;
+    color: #0161b8;
+}
+
+
+
+.container {
+  border-radius: 5px;
+  background-color:#0161b8 ;
+  padding: 20px;
+  height:90%;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+}
