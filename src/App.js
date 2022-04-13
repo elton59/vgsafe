@@ -1,6 +1,5 @@
 import Header from './components/Header'
 import './App.css';
-import Footer from './components/Footer';
 import Services from './components/Services';
 import  {BrowserRouter as Router,Route,Routes}from 'react-router-dom'
 import Appointment from './components/Appointment.js';
@@ -23,7 +22,7 @@ function App() {
   
     </Router>
     </div>
-    <Footer/>
+    
     </>
   );
 }

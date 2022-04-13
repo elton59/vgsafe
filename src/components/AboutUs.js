@@ -1,6 +1,9 @@
 import React from 'react';
 import './AboutUs.css';
 import aboutus from '../assets/images/aboutus.png';
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin,  FaPhoneAlt, FaTwitter } from 'react-icons/fa';
+
+
 function AboutUs() {
     return (
         <div>
@@ -49,6 +52,41 @@ function AboutUs() {
          
           
          </div>
+         <div className='Footerb'>
+    <div id="waterdrop"></div>
+
+      <div className="footer-top">
+        <div className="pt-exebar">
+        <div className="col-md-3">
+            
+            </div>
+        </div>
+        <div className="">
+          <div className="row">
+            <div className="">
+              <div className="widget footer_widget">
+               
+                <div className="site-navigation">
+                 
+                  <h5 className="footer-title">Contacts Us</h5>
+                  <div className="white"><FaPhoneAlt/>0115523512</div>
+               
+
+                 
+                </div>
+              </div>
+
+            </div>
+         
+          
+          </div>
+        </div>
+      </div>
+    
+ 
+ 
+
+        </div>
         </div>
     );
 }

@@ -11,10 +11,12 @@ import aboutus from '../assets/images/aboutus.png';
 import {Link} from 'react-router-dom'
 import { FaChevronCircleLeft } from 'react-icons/fa';
 import { FaChevronCircleRight } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin,  FaPhoneAlt, FaTwitter } from 'react-icons/fa';
+
 
 function Main() {
   return (
-    <div className="main">
+    <div className="wrapper">
      
       <div className="corouselsection">
         <Carousel
@@ -48,7 +50,7 @@ function Main() {
               <button
                 type="button"
                 onClick={onClickHandler}
-                title={label}
+               title={label}
                 style={{ 
                   position:'absolute',
                   top:'230px',
@@ -143,7 +145,7 @@ function Main() {
           <p>VG Safe Medicines is a healthcare-based organization focused on optimizing therapeutic outcomes and improving the quality of life in chronic conditions by ensuring safety, efficacy, and availability of drugs to clients.</p>
           <button className="aboutusbutton">ReadMore</button>
         </div>
-        <p></p>
+    
       </div>
 
       <div className="mainservicescontainer">
@@ -197,7 +199,41 @@ function Main() {
           </div>
         </div>
         </div>
-        <p></p>
+        <div className='Footer'>
+    <div id="waterdrop"></div>
+
+      <div className="footer-top">
+        <div className="pt-exebar">
+        <div className="col-md-3">
+            
+            </div>
+        </div>
+        <div className="">
+          <div className="row">
+            <div className="">
+              <div className="widget footer_widget">
+               
+                <div className="site-navigation">
+                 
+                  <h5 className="footer-title">Contacts Us</h5>
+                  <div className="white"><FaPhoneAlt/>0115523512</div>
+               
+
+                 
+                </div>
+              </div>
+
+            </div>
+         
+          
+          </div>
+        </div>
+      </div>
+    
+ 
+ 
+
+        </div>
    
    
 </div>

@@ -1,7 +1,8 @@
 import React from 'react';
 import './Navigation.css';
 import vigisafe from '../assets/logo/vglogo.png';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+
 function Navigation(props) {
     return (
         < div className='navigationwrapper'>
