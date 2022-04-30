@@ -6,12 +6,13 @@ import athritis from '../assets/images/arthritis.png';
 import diabetes from '../assets/images/diabetes.png';
 import hypertension from '../assets/images/hypertension.png';
 import painManagement from '../assets/images/painmanagement.png';
+import drugoutsource from '../assets/images/drugoutsource.png';
 import { Carousel } from 'react-responsive-carousel';
 import aboutus from '../assets/images/aboutus.png';
 import {Link} from 'react-router-dom'
 import { FaChevronCircleLeft } from 'react-icons/fa';
 import { FaChevronCircleRight } from 'react-icons/fa';
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin,  FaPhoneAlt, FaTwitter } from 'react-icons/fa';
+import { FaPhoneAlt }from 'react-icons/fa';
 
 
 function Main() {
@@ -33,7 +34,7 @@ function Main() {
                 style={{
                   position:'absolute',
                   top:'230px',
-                  right: "0px",
+                  right: "70px",
                   width:"40px",
                   fontSize:"20px",
                   backgroundColor:"transparent",
@@ -92,11 +93,7 @@ function Main() {
        
         
 
-          <div>
-
-       
-
-          </div>
+      
           
           <div>
             <div class="">
@@ -106,20 +103,19 @@ function Main() {
           </div>
         
            
-       
-
-          <div>
-            <div class="">
-              <img src={diabetes} alt="diabetes" className="corouselimage" />
-
-            </div>
-          </div>
-
           <div>
             <div class="">
               <img src={hypertension} alt="athritis" className="corouselimage" />
             </div>
           </div>
+          
+          <div>
+            <div class="">
+              <img src={hypertension} alt="athritis" className="corouselimage" />
+            </div>
+          </div>
+
+         
 
           <div>
             <div class="">
@@ -128,10 +124,13 @@ function Main() {
           </div>
           <div>
             <div class="">
-              <img src={painManagement} alt="athritis" className="corouselimage" />
+              <img src={painManagement} alt="pain_management" className="corouselimage" />
             </div>
           </div>
           <div>
+            <div class="">
+              <img src={drugoutsource} alt="drug_outsourcing" className="corouselimage" />
+            </div>
           </div>
 
         </Carousel>
@@ -143,16 +142,16 @@ function Main() {
         <div className="aboutusdescriptionsection">
           <h1>About Us</h1>
           <p>VG Safe Medicines is a healthcare-based organization focused on optimizing therapeutic outcomes and improving the quality of life in chronic conditions by ensuring safety, efficacy, and availability of drugs to clients.</p>
-          <button className="aboutusbutton">ReadMore</button>
+          <button className="aboutusbutton">Read More</button>
         </div>
-    
+
       </div>
 
       <div className="mainservicescontainer">
         <div className='mainserviceheader'>
       <h1>OUR SERVICES</h1>
-      <p>We provide medication therapy management and drug outsourcing services. &nbsp; <Link to="/Services"><br/>
-            <button className='readmore'>ReadMore</button>
+      <p>We provide medication therapy management and drug outsourcing services. &nbsp; &nbsp; <Link to="/Services"><br/>
+            <button className='readmore'>Read More</button>
             </Link></p></div>
         <div className="mainservice">
           <div className='mainservicecard'>
@@ -163,7 +162,7 @@ function Main() {
 
             <Link to="/Services">
             <br/><br/>
-            <button className='readmore'>ReadMore</button>
+            <button className='readmore'>Read More</button>
             </Link>
           </div>
 
@@ -174,7 +173,7 @@ function Main() {
             <img src={diabetes}/>
             <Link to="/Services">
             <br/><br/>
-            <button className='readmore'>ReadMore</button>
+            <button className='readmore'>Read More</button>
             </Link>
           </div>
           <div className='mainservicecard'>
@@ -184,7 +183,7 @@ function Main() {
           <img src={athritis}/>
             <Link to="/Services">
             <br/><br/>
-            <button className='readmore'>ReadMore</button>
+            <button className='readmore'>Read More</button>
             </Link>
           </div>
           <div className='mainservicecard'>
@@ -194,7 +193,17 @@ function Main() {
           <img src={painManagement}/>
             <Link to="/Services">
               <br/><br/>
-            <button className='readmore'>ReadMore</button>
+            <button className='readmore'>Read More</button>
+            </Link>
+          </div>
+          <div className='mainservicecard'>
+          <div className='mainservicetitle'>
+            <h3>Drug Outsourcing</h3>
+            </div>
+          <img src={drugoutsource}/>
+            <Link to="/Services">
+              <br/><br/>
+            <button className='readmore'>Read More</button>
             </Link>
           </div>
         </div>

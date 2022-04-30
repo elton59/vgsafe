@@ -1,8 +1,9 @@
 .navigationwrapper
 {
   box-shadow: 0 4px 3px rgba(13, 223, 30, 0.705);
-  height:160px;
+  height:250px;
   z-index:9999;
+
 }
 .navigation
 {
@@ -10,7 +11,7 @@
     font-family: 'Open Sans',sans-serif;
    
     position:relative;
-    top:40px;
+    top:100px;
     left:180px;
     width:890px;
     height:100px;
@@ -64,7 +65,7 @@ left:3%
     .navigationwrapper
 {
   box-shadow: 0 4px 3px rgba(13, 223, 30, 0.705);
-  height:83px;
+  height:167px;
   z-index:9999;
 }
         .navigationlink

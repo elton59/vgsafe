@@ -30,11 +30,13 @@ function Services() {
                      <p>
                    <ul>
                   
-                   <li>Identifying uncontrolled blood sugars.</li>
-                   <li>Educating clients about diabetes and the various therapy used for each diabetes type</li>
-                   <li>Advising clients on medication adherence and rational use of their drugs.</li>
-                   <li>Identifying and advising clients on adverse drug effects and prescribing issues. </li>
-                   <li>Advising patients on lifestyle modifications to improve their health outcomes</li>
+                   <li>	Identifying uncontrolled hypertension.</li>
+<li>Educating clients about hypertension and its treatment.</li>	
+<li>	Advising clients on rational use of their drugs.</li>
+<li>	Identifying and advising clients on adverse drug effects.</li> 
+<li>	Advising clients on lifestyle modifications to improve their health outcomes.</li>
+<li>	Regular follow up to check on medication adherence and response to therapy.</li>
+
 </ul>
 </p>
 </div>
@@ -48,11 +50,16 @@ function Services() {
                      </div>
                  </div>
                  <div className='servicecardtext'>
-                   <p><ul><li>	Educating clients about arthritis and the various therapy used for each form of arthritis</li>
-                   <li>	Advising clients on medication adherence and rational use of their drugs.</li>
-                   <li>	Advising patients on pain management in arthritis</li>
-                   <li>	Identifying and advising clients on adverse drug effects and prescribing issues.</li>
-                   <li>	Advising patients on lifestyle modifications to improve their health outcomes</li></ul>
+                   <p><ul>
+                   <li>	Identifying uncontrolled blood sugars.</li>
+                   <li>Educating clients about diabetes and its treatment.</li>
+                   <li>	Advising clients on rational use of their drugs.</li>
+                   <li>Identifying and advising clients on adverse drug effects.</li> 
+<li>Advising clients on lifestyle modifications to improve their health outcomes.</li>
+<li>Regular follow up to check on medication adherence and response to therapy.</li>
+ 
+
+                   </ul>
                    </p>
                    </div>
                 </div>
@@ -65,11 +72,14 @@ function Services() {
                  </div>
                    <div className='servicecardtext'>
                    <p> <ul>
-                    <li>Identifying uncontrolled hypertension. </li>
-                    <li>Educating clients about hypertension and its medication therapies</li>
-                    <li>Advising clients on medication adherence and rational use of their drugs.</li>
-                    <li>Identifying and advising clients on adverse drug effects and prescribing issues. </li>
-                    <li>Advising patients on lifestyle modifications to improve their health outcomes</li>
+                   <li>Educating clients about arthritis and its treatment.</li>
+                   <li>	Advising clients on rational use of their drugs.</li>
+                   <li>	Advising clients on pain management in arthritis</li>
+                   <li>	Identifying and advising clients on adverse drug effects.</li>
+                   <li>	Advising clients on lifestyle modifications to improve their.</li> health outcomes
+                   <li>	Regular follow up to check on medication adherence and response to therapy.</li>
+
+
     </ul>
     </p>
     </div>
@@ -83,7 +93,15 @@ function Services() {
                      </div>
                  </div>
                  <div className='servicecardtext'>
-                  
+                 <p> <ul>
+                 <li>	Educate clients about pain and various treatment option available.</li>
+                 <li>	Advising clients on safe and efficacious management of pain.</li>
+                 <li>	Regular follow up to check on medication adherence and response to therapy.</li>
+
+
+
+    </ul>
+    </p>
                    </div>
                 </div>
             

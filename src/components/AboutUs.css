@@ -70,7 +70,7 @@ background-color:#0161b8 ;
     width: 300px;
     text-align: center;
     display: inline-block;
-    height: 410px;
+    height: 210px;
     margin: 15px;
     padding: 10px;
     background-color: #9ed15c;
@@ -162,7 +162,7 @@ background-color:#0161b8 ;
        top:10px;
       text-align: center;
       display: block;
-      height: 410px;
+      height: 310px;
       margin-bottom: 15px;  
       margin-top: 0px;  
       margin-left:0.2;  
@@ -178,7 +178,7 @@ background-color:#0161b8 ;
         text-align: center;
         height: 60px;
         position:absolute;
-         top:210%;
+         top:180%;
         width:100% ;
         
        
