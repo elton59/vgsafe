@@ -9,9 +9,9 @@ function AboutUs() {
         <div>
       
          <div className='aboutus_s'>
-             
+     
              <div className='aboutuscard_s'>
-         
+      
           <div className='aboutuscardimgdiv_s'>
            <div className='aboutuscardimg_s'>
                <img src={aboutus}/>
@@ -29,7 +29,6 @@ function AboutUs() {
           </div>
            </div>
        
-      
            <div className="mainabout">
           <div className='mainaboutcard'>
             <h2>Mission</h2>

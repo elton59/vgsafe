@@ -88,6 +88,8 @@ background-color:#0161b8 ;
   left:4.5%;
   top:-83px;
   padding-bottom: 50px; 
+  
+
 
 
 } 
@@ -98,8 +100,8 @@ background-color:#0161b8 ;
       width: 90%;
       text-align: center; 
       display:inline-block;
-      height:2750px;
-      margin:14px;
+      height:750px;
+      margin-bottom:1900px;
       padding: 10px;
      
     }
@@ -145,7 +147,7 @@ background-color:#0161b8 ;
   .mainabout {
       display: block;
       width: 96%;
-      margin-top:100px;
+      margin-top:-100px;
       height:40%;
       position:absolute;
       top:48%;
@@ -469,7 +471,7 @@ color:#9ed15c;
     text-align: center;
     height: 160px;
     position: absolute;
-    top:359%;
+    top:439%;
      margin-top: 0px;
     width:100%;
  

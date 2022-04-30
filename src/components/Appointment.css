@@ -87,7 +87,7 @@ input[type=submit] {
   .appointment
 {
   background-color:#0161b8;
- height:170%;
+ height:185%;
  width: 90%;
  text-align: center; 
  display:inline-block;
@@ -95,7 +95,7 @@ input[type=submit] {
  margin:1px;
 padding: 10px;
 position:absolute;
-top:22%;
+top:30%;
 left:2%;
 
 
@@ -465,7 +465,7 @@ color:#9ed15c;
     text-align: center;
     height: 160px;
     position: absolute;
-    top:195%;
+    top:215%;
     width:100% ;
    
     

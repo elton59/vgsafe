@@ -139,7 +139,7 @@
         width: 100%;
         transition: all 0.2s ease-in-out;
         position: absolute;
-        top: 150.5%;
+        top: 170.5%;
         padding-bottom: 110px;
        
        
@@ -213,7 +213,7 @@
         position: absolute;
         top: 50%;
         width: 100%;
-        height: 100%;
+        height: 120%;
        z-index: 999;
     }
     .mainservicecard {
@@ -527,7 +527,7 @@ color:#9ed15c;
     text-align: center;
     height: 160px;
     position: absolute;
-    top:390%;
+    top:474.1%;
     width:100% ;
    
 }

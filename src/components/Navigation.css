@@ -55,11 +55,14 @@ left:3%
     .navigation
     { 
      
-       position:relative;
-       left:28%;
-       top:25px;
-        width:73%;  
-        font-family: 'Open Sans',sans-serif;
+   
+      font-family: 'Open Sans',sans-serif;
+   
+      position:relative;
+      top:100px;
+      left:90px;
+      width:70%;
+      height:100px;
          
     }
     .navigationwrapper
@@ -72,7 +75,6 @@ left:3%
         {
           font-family: 'Open Sans',sans-serif;
           position:relative;
-          top:90%;
           display: inline-block;
           font-size:9px;
           margin-bottom:2px;
