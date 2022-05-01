@@ -15,31 +15,31 @@ function Appointment(props) {
   <form>
        <div className='formgroup'>
       <label>*FirstName</label><br/>
-      <input type="text"   value="*FistName" name="fname" />
+      <input type="text"   placeholder="*FistName" name="fname" />
       </div>
       <div className='formgroup'>
       <label>*LastName</label><br/>
-      <input type="text"   value="*LastName" name="fname"  />
+      <input type="text"   placeholder="*LastName" name="fname"  />
       </div>
       <div className='formgroup'>
       <label>*Email</label><br/>
-      <input type="email"   value="*Email" name="fname" />
+      <input type="email"   placeholder="*Email" name="fname" />
       </div>
       <div className='formgroup'>
       <label>*PhoneNumber</label><br/>
-      <input type="number"   value="*PhoneNumber" name="fname" />
+      <input type="number"  placeholder="*PhoneNumber" name="fname" />
       </div>
       <div className='formgroup'>
       <label>*Date</label><br/>
-      <input type="date"   value="*Date" name="fname" />
+      <input type="date"   placeholder="*Date" name="fname" />
       </div>
       <div className='formgroup'>
       <label>*Time</label><br/>
-      <input type="time"   value="*Time" name="fname" />
+      <input type="time"   placeholder="*Time" name="fname" />
        </div>
        <div className='formgroup'>
       <label>*Reason for Appointment</label><br/>
-      <textarea   value="*Reason" name="reason" />
+      <textarea   placeholder="*Reason" name="reason" />
        </div>
        <div className='formgroup' style={{position:'relative',top:-40}}>
       <label>*Condition</label><br/>
