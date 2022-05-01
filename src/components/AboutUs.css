@@ -97,9 +97,10 @@ background-color:#0161b8 ;
       width: 90%;
       text-align: center; 
       display:block;
-      height:750px;
-      margin-bottom:600px;
+      height:1250px;
+      margin-bottom:100px;
       padding: 10px;
+      background-color: yellow;
      
     }
   .aboutuscardimgdiv_s{
