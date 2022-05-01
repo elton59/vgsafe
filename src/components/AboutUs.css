@@ -99,9 +99,9 @@ background-color:#0161b8 ;
       display:block;
       height:1250px;
       padding: 10px;
-      background-color: yellow;
-      margin-left:0
-     
+  
+      margin-left:0;
+     overflow-y:scroll
     }
   .aboutuscardimgdiv_s{
       
@@ -145,7 +145,6 @@ background-color:#0161b8 ;
   .mainabout {
       display: block;
       width: 96%;
-     background-color: red;
       height:40%;
    
      
