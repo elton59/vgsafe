@@ -96,7 +96,7 @@ background-color:#0161b8 ;
   
       width: 90%;
       text-align: center; 
-      display:inline-block;
+      display:block;
       height:750px;
       margin-bottom:600px;
       padding: 10px;
@@ -143,18 +143,16 @@ background-color:#0161b8 ;
   } 
   .mainabout {
       display: block;
-      width: 90%;
+      width: 96%;
      background-color: red;
       height:40%;
       margin-top:-130px;
-      position: relative;
-      left:15px
      
    
   }
   .mainaboutcard {
      
-      width: 90%;
+      width: 95%;
        position:relative;
        top:10px;
       text-align: center;
