@@ -7,9 +7,6 @@
  box-shadow: 5px 5px 8px 5px #888888;
  margin:17px;
 padding: 10px;
-position:absolute;
-top:43%;
-left:2%;
 background-color:#0161b8;
 
 }
@@ -94,9 +91,8 @@ input[type=submit] {
  box-shadow: 5px 5px 8px 5px #888888;
  margin:1px;
 padding: 10px;
-position:absolute;
-top:30%;
 left:2%;
+margin-top: 40px;
 
 
 }
@@ -170,11 +166,10 @@ input[type=submit] {
 
   @media screen  and (min-width: 780px){
     .Footerd {
-        position: absolute;
+     
         padding: 25px 0;
         text-align: center;
         height: 60px;
-        top:195%;
         width:100% ;
         
        
@@ -464,8 +459,7 @@ color:#9ed15c;
     padding: 25px 0;
     text-align: center;
     height: 160px;
-    position: absolute;
-    top:215%;
+ 
     width:100% ;
    
     

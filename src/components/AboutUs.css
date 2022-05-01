@@ -58,11 +58,10 @@ background-color:#0161b8 ;
     display: flex;
     flex: 1;
     width: 100%;
-    margin:80px;
+    margin:0px;
     height:90%;
-    position: relative;
-    top:-15%;
-    left:-7%;
+  
+  
  
 }
 .mainaboutcard {
@@ -80,13 +79,11 @@ background-color:#0161b8 ;
     .aboutus_s
   {
   width:90%; 
-  margin-top: 120px;
+  margin-top: 70px;
   margin-left: 1%;
   vertical-align: baseline;
   box-shadow: 5px 5px 5spx 5px #888888;
-  position: relative;
   left:4.5%;
-  top:-83px;
   padding-bottom: 50px; 
   
 
@@ -101,7 +98,7 @@ background-color:#0161b8 ;
       text-align: center; 
       display:inline-block;
       height:750px;
-      margin-bottom:1900px;
+      margin-bottom:600px;
       padding: 10px;
      
     }
@@ -147,11 +144,9 @@ background-color:#0161b8 ;
   .mainabout {
       display: block;
       width: 96%;
-      margin-top:-100px;
+     
       height:40%;
-      position:absolute;
-      top:48%;
-      left:-21%;
+    
       margin-bottom: 0px;
 
    
@@ -179,8 +174,7 @@ background-color:#0161b8 ;
         padding: 25px 0;
         text-align: center;
         height: 60px;
-        position:absolute;
-         top:180%;
+      
         width:100% ;
         
        
@@ -470,8 +464,6 @@ color:#9ed15c;
     padding: 25px 0;
     text-align: center;
     height: 160px;
-    position: absolute;
-    top:439%;
      margin-top: 0px;
     width:100%;
  

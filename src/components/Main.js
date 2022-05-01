@@ -135,6 +135,7 @@ function Main() {
 
         </Carousel>
       </div>
+      <>
       <div className="aboutus">
         <div className="aboutusimgsection">
           <img src={aboutus} className="aboutusimg" />
@@ -146,7 +147,7 @@ function Main() {
         </div>
 
       </div>
-
+      </>
       <div className="mainservicescontainer">
         <div className='mainserviceheader'>
       <h1>OUR SERVICES</h1>
