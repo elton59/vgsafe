@@ -156,7 +156,6 @@
     margin-right: 0px;
     text-align: center;
     font-family: arial;
-    overflow: scroll;
    float:left;
     
   }
@@ -178,7 +177,7 @@
     .serviceheader
     {
    
-        text-align: left;
+    
         left:0px;
         width:400px;
     
