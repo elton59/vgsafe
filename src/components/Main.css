@@ -62,6 +62,7 @@
 
 }
 .aboutusbutton {
+    display: inline;
     align-items: 'center';
     background-color: #9ed15c;
     color: #0161b8;
@@ -147,6 +148,7 @@
         width: 200px;
         transition: all 0.2s ease-in-out;
         margin-top:-50px;
+        display: inline;
     }
     .aboutusimg {
         margin:10px;
