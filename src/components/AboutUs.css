@@ -143,16 +143,18 @@ background-color:#0161b8 ;
   } 
   .mainabout {
       display: block;
-      width: 96%;
+      width: 90%;
      background-color: red;
       height:40%;
       margin-top:-130px;
+      position: relative;
+      left:15px
      
    
   }
   .mainaboutcard {
      
-      width: 95%;
+      width: 90%;
        position:relative;
        top:10px;
       text-align: center;
