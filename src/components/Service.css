@@ -57,7 +57,6 @@
   margin-right: 0px;
   text-align: center;
   font-family: arial;
-overflow: scroll;
  float:left;
   
 }
@@ -157,7 +156,7 @@ overflow: scroll;
     margin-right: 0px;
     text-align: center;
     font-family: arial;
-  
+    overflow: scroll;
    float:left;
     
   }
