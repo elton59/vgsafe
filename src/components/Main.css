@@ -207,8 +207,10 @@
         position: relative;
         width: 100%;     
         left: 0%;
+        top:5px;
         height:400px;
     margin-bottom: 40px;
+   
         
     
     }
