@@ -139,12 +139,22 @@
        
        
     }
+    .aboutusbutton {
+        align-items: 'center';
+        background-color: #9ed15c;
+        color: #0161b8;
+        height: 50px;
+        width: 220px;
+        transition: all 0.2s ease-in-out;
+        margin-bottom: 30px;
+    }
     .aboutusimg {
         margin:10px;
         width: 350px;
         height: 300px;
     
     }
+    
     .mainserviceheader
 {
     display: inline-block;
