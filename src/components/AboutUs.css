@@ -78,12 +78,12 @@ background-color:#0161b8 ;
   @media screen and (max-width: 540px) {
     .aboutus_s
   {
-  width:90%; 
+  width:95%; 
   margin-top: 70px;
-  margin-left: 1%;
+  margin-left: 0%;
   vertical-align: baseline;
   box-shadow: 5px 5px 5spx 5px #888888;
-  left:4.5%;
+  left: 3%;
   padding-bottom: 50px; 
   
 
@@ -94,12 +94,13 @@ background-color:#0161b8 ;
     .aboutuscard_s
     {
   
-      width: 100%;
+      width: 95%;
       text-align: center; 
       display:block;
       height:1250px;
       padding: 10px;
       background-color: yellow;
+      margin-left:0
      
     }
   .aboutuscardimgdiv_s{
