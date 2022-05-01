@@ -94,11 +94,10 @@ background-color:#0161b8 ;
     .aboutuscard_s
     {
   
-      width: 90%;
+      width: 100%;
       text-align: center; 
       display:block;
       height:1250px;
-
       padding: 10px;
       background-color: yellow;
      
