@@ -5,7 +5,7 @@ import diabetes from '../assets/images/diabetes.png';
 import hypertension from '../assets/images/hypertension.png';
 import drugoutsource from '../assets/images/drugoutsource.png';
 import painManagement from '../assets/images/painmanagement.png';
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin,  FaPhoneAlt, FaTwitter } from 'react-icons/fa';
+import {   FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 
 function Services() {
@@ -26,10 +26,11 @@ function Services() {
                          <img src={hypertension}/>
                      </div>
                  </div>
+                 
                  <div className='servicecardtext'>
                      <p>
                    <ul>
-                  
+
                    <li>	Identifying uncontrolled hypertension.</li>
 <li>Educating clients about hypertension and its treatment.</li>	
 <li>	Advising clients on rational use of their drugs.</li>
@@ -116,7 +117,7 @@ function Services() {
                      </div>
                  </div>
                  <div className='servicecardtext'>
-                 <p><ul>We outsource drugs for our clients with the aim of enhancing the affordability and availability of their drugs. We are keen on the specifications of the drugs used by our clients in terms of the exact drug component, the dose strength, the dosage form, and their brand of preference.</ul></p>
+                 <p><ul><li>We outsource drugs for our clients with the aim of enhancing the affordability and availability of their drugs. We are keen on the specifications of the drugs used by our clients in terms of the exact drug component, the dose strength, the dosage form, and their brand of preference.</li></ul></p>
                    </div>
                 </div>
             
@@ -136,11 +137,12 @@ function Services() {
             <div className="">
               <div className="widget footer_widget">
                
-                <div className="site-navigation">
-                 
+              <div className="site-navigation">
+                <h5 className="footer-title"> &copy; Copyright VGSafe All Rights Reserved</h5>
                   <h5 className="footer-title">Contacts Us</h5>
                   <div className="white"><FaPhoneAlt/>0115523512</div>
-               
+                  <div className="white"><FaEnvelope/>vgsafemedicines@gmail.com</div>
+                
 
                  
                 </div>

@@ -1,16 +1,16 @@
 import React from 'react';
 import './Main.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import logovideo from '../assets/images/sagateksolutions.mp4';
 import athritis from '../assets/images/arthritis.png';
 import diabetes from '../assets/images/diabetes.png';
 import hypertension from '../assets/images/hypertension.png';
 import painManagement from '../assets/images/painmanagement.png';
 import drugoutsource from '../assets/images/drugoutsource.png';
 import { Carousel } from 'react-responsive-carousel';
-import aboutus from '../assets/images/aboutus.png';
+import aboutus from '../assets/images/aboutus2.jpg';
+import aboutus2 from '../assets/images/aboutus.png';
 import {Link} from 'react-router-dom'
-import { FaChevronCircleLeft } from 'react-icons/fa';
+import { FaChevronCircleLeft, FaEnvelope } from 'react-icons/fa';
 import { FaChevronCircleRight } from 'react-icons/fa';
 import { FaPhoneAlt }from 'react-icons/fa';
 
@@ -111,7 +111,7 @@ function Main() {
           
           <div>
             <div class="">
-              <img src={hypertension} alt="athritis" className="corouselimage" />
+              <img src={diabetes} alt="athritis" className="corouselimage" />
             </div>
           </div>
 
@@ -138,7 +138,7 @@ function Main() {
       <>
       <div className="aboutus">
         <div className="aboutusimgsection">
-          <img src={aboutus} className="aboutusimg" />
+          <img src={aboutus2} className="aboutusimg" />
         </div>
         <div className="aboutusdescriptionsection">
           <h1>About Us</h1>
@@ -224,13 +224,23 @@ function Main() {
               <div className="widget footer_widget">
                
                 <div className="site-navigation">
-                 
+                <h5 className="footer-title"> &copy; Copyright VGSafe All Rights Reserved</h5>
                   <h5 className="footer-title">Contacts Us</h5>
                   <div className="white"><FaPhoneAlt/>0115523512</div>
-               
+                  <div className="white"><FaEnvelope/>vgsafemedicines@gmail.com</div>
+                
 
                  
                 </div>
+                <br/><br/><br/>
+                <div className="site-navigation">
+                 
+               
+                 <div className="white">Website developed by <a href="yubuntu.co.ke">Yubuntutech solutions </a></div>
+               
+
+                
+               </div>
               </div>
 
             </div>

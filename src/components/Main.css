@@ -110,7 +110,7 @@
     display: inline-block;
     text-align: left;
     position:relative;
-    left:-150px
+    left:-260px
     
 
 }
@@ -160,10 +160,17 @@
     .mainserviceheader
 {
     display: inline-block;
-    text-align: center;
     position:relative;
-    width:100%;
-    left:2%
+    width:98%;
+    left:1%
+}
+.mainserviceheader p
+{
+ 
+    text-align: justify;
+    
+    text-justify: inter-word;
+   
 }
     .corouselsection {
         width: 100%;
@@ -210,11 +217,14 @@
         top:0px;
         height:400px;
     margin-bottom: 40px;
-   
-        
+
+    }
+    .aboutusdescriptionsection p {
+       
+    text-align: justify;
+        text-justify: distribute-all-lines;
     
     }
-    
     .aboutus {
         background-color:  #0161b8;
         box-shadow: 0 -4px 3px rgba(13, 223, 30, 0.705);
@@ -417,12 +427,12 @@ margin-bottom: 50px;
 }
 
 .footer-title {
-margin-bottom: 40px;
+margin-bottom: 5px;
 color: #9ed15c;
 font-weight: 500;
 text-transform: capitalize;
 padding-bottom: 15px;
-font-size: 16px;
+font-size: 26px;
 position: relative;
 }
 
@@ -524,6 +534,7 @@ padding-top: 10px;
 .white
 {
 color:#9ed15c;
+font-size: 20px;
 }
 
 @media screen and (max-width: 540px) {

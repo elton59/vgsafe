@@ -1,8 +1,8 @@
 .navigationwrapper
 {
   box-shadow: 0 4px 3px rgba(13, 223, 30, 0.705);
-  height:250px;
-  z-index:9999;
+  height:203px;
+  margin-bottom: 20px;
 
 }
 .navigation
@@ -10,23 +10,22 @@
    
     font-family: 'Open Sans',sans-serif;
     position:relative;
-    top:100px;
+    top:90px;
     left:180px;
     width:890px;
     height:100px;
 
-    
      
 }
 
 .navigationlogo
 {
-z-index: -999;
-width: 230px;
-height: 300;
-position: absolute;
-top:0%;
-left:3%
+
+width: 130px;
+height: 100;
+position:relative;
+left:100px
+
 
 }
 .navigationlink
@@ -38,14 +37,17 @@ left:3%
     display:inline-block;
     color:#0161b8;;
     font-weight:900;
-    z-index:9999;
+
     text-transform: uppercase;
+    height:0px;
+    position: relative;
+    top:-10px
     
   }
   .logoimg
   { 
-      width:330px;
-      height:330px;
+      width:230px;
+      height:100px;
 
      
   }
@@ -60,14 +62,14 @@ left:3%
       top:100px;
       left:90px;
       width:70%;
-      height:100px;
-         
+      height:50px;
+      
     }
     .navigationwrapper
 {
   box-shadow: 0 4px 3px rgba(13, 223, 30, 0.705);
   height:167px;
-  z-index:9999;
+
 }
         .navigationlink
         {
@@ -80,24 +82,26 @@ left:3%
           padding:5px;
           color:#0161b8;;
           font-weight:900;
-          z-index:9999;
           text-transform: uppercase;
+          top:1px
           
         }
         .navigationlogo
     {
       
-    z-index: -999;
+  
     width: 100px;
-    position: absolute;
-    top:8%;
-    left:2%
+    position: relative;
+    left:10px;
+    width:90px;
+    height:80px;
+    top:50px
     
     }
     .logoimg
     { 
         width:130px;
-        height:130px;
+        height:50px;
     
        
     }

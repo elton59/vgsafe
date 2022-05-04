@@ -16,9 +16,8 @@
   .headericons {
 
     align-items: 'center';   
-   position:absolute;
-   top:4.9%;
-   right:0%;
+   position:relative;
+   left: 53%;
    width:150px;
    display: inline-block;
 
@@ -36,9 +35,8 @@
   }
   .headerbutton {
     align-items: 'center';
-    position:absolute;
-    top:2.5%;
-    left:70%;
+    position:relative;
+    left:25%;
     cursor: pointer;
     background-color:#9ed15c ;
     color: #0161b8;
@@ -61,7 +59,7 @@
     
       position:absolute;
       left:1%;
-      top:0%;
+      top:-7px;
       display:inline-block;
       color:#9ed15c;
       font-size:15px
@@ -71,7 +69,7 @@
       align-items: 'center';
       position:relative;
       top:30%;
-      left:32%;
+      left:14%;
       cursor: pointer;
       background-color:#9ed15c ;
       color: #0161b8;
@@ -82,12 +80,13 @@
     .headericons {
 
       align-items: 'center';   
-     position:absolute;
-     top:0.9%;
-     right:0%;
+     position:relative;
+     top:-20px;
+     left:172px;
      width:150px;
      display: inline-block;
-    font-size: 1px;
+    font-size:0.1px;
+    text-align: right;
     }
      
 }

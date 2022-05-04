@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutUs.css';
 import aboutus from '../assets/images/aboutus.png';
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin,  FaPhoneAlt, FaTwitter } from 'react-icons/fa';
+import { FaPhoneAlt,FaEnvelope } from 'react-icons/fa';
 
 
 function AboutUs() {
@@ -19,9 +19,9 @@ function AboutUs() {
            </div>
            <div className='aboutuscardtext_s'>
          <h1 style={{color:'black',textAlign:'center'}}>WHO WE ARE</h1>
-         <p>We offer our clients individualized medication therapy management aimed at promoting rational use of drugs, medication adherence, and minimizing the risk of adverse drug effects and complications. This we achieve by scrutinizing clients’ prescriptions, advising clients on safe and efficacious use of their drugs, performing regular follow-ups to ensure medication adherence and response to therapy, and responding to queries of clients about their experiences after taking medications.</p>
+         <p style={{fontSize:'23px'}}>We offer our clients individualized medication therapy management aimed at promoting rational use of drugs, medication adherence, and minimizing the risk of adverse drug effects and complications. This we achieve by scrutinizing clients’ prescriptions, advising clients on safe and efficacious use of their drugs, performing regular follow-ups to ensure medication adherence and response to therapy, and responding to queries of clients about their experiences after taking medications.</p>
 
-         <p>We outsource drugs for our clients with the aim of enhancing the affordability and availability of their drugs. We are keen on the specifications of the drugs used by our clients in terms of the exact drug component, the dose strength, the dosage form, and their brand of preference. </p>
+         <p style={{fontSize:'23px'}}>We outsource drugs for our clients with the aim of enhancing the affordability and availability of their drugs. We are keen on the specifications of the drugs used by our clients in terms of the exact drug component, the dose strength, the dosage form, and their brand of preference. </p>
 
 
 
@@ -32,26 +32,31 @@ function AboutUs() {
            <div className="mainabout">
           <div className='mainaboutcard'>
             <h2>Mission</h2>
-            <p>To be the most trusted healthcare partner in chronic conditions  </p>
+            <ul>
+           <li> <p>To be the most trusted healthcare partner in chronic conditions</p></li>
             <br/>
+            </ul>
      
 
           </div>
 
           <div className='mainaboutcard'>
             <h2>Vision</h2>
-            <p>To optimize therapeutic outcomes and improve the quality of life in chronic conditions by ensuring safety, efficacy, and availability of drugs.</p>
+            <ul>
+            <li><p>To optimize therapeutic outcomes and improve the quality of life in chronic conditions by ensuring safety, efficacy, and availability of drugs.</p></li>
             <br/>
-            
+            </ul>
             
           </div>
           <div className='mainaboutcard'>
             <h2>Core Values</h2>
-         <p><ul style={{listStyleType:'none'}}>
+         <ul >
+         <p>
            <li>Rational use of Medicines.</li>
             <li>	Medication Adherence.</li>
              <li>Improved Quality of Life.</li>
-             </ul></p>
+             </p>
+             </ul>
          
           </div>
         

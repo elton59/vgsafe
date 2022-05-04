@@ -74,7 +74,13 @@ background-color:#0161b8 ;
     padding: 10px;
     background-color: #9ed15c;
 }  
+.mainaboutcard p{
+  text-align: justify;
+  text-justify: distribute;
+  text-align-last: left;
+  word-spacing:-2px;
 
+} 
   @media screen and (max-width: 540px) {
     .aboutus_s
   {
@@ -113,6 +119,12 @@ background-color:#0161b8 ;
      clear:both;
       
     }
+    .mainaboutcard p{
+      text-align: justify;
+      text-justify: distribute;
+    
+    
+    } 
     .aboutuscardimg_s{
       height:15vw;
       object-fit: cover;
@@ -141,6 +153,7 @@ background-color:#0161b8 ;
   .aboutus_s p
   {
       font-size: 25px;
+      text-align: justify;
   } 
   .mainabout {
       display: block;

@@ -23,7 +23,7 @@ function Header() {
             <button className='headerbutton'>BookAppointment</button>
             </Link>
                 <div className="headercontact">
-                    <p><FaEnvelope/> &nbsp;vgsafemedicines@gmail.com <br/>  <FaPhone/> &nbsp; 0115523512</p>  
+                    <p> <a href="mailto:vgsafemedicines@gmail.com" style={{color:'#9ed15c',textDecoration:'none'}}><FaEnvelope/> &nbsp;vgsafemedicines@gmail.com</a><br/> <a href="tel:+254115523512" style={{color:'#9ed15c',textDecoration:'none'}}> <FaPhone/> &nbsp;0115523512</a></p>  
                  
                     </div> 
              </div>

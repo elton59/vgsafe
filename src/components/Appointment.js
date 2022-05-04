@@ -1,7 +1,6 @@
 import React from 'react';
-import Navigation from './Navigation';
 import './Appointment.css';
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin,  FaPhoneAlt, FaTwitter } from 'react-icons/fa';
+import {   FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 
 function Appointment(props) {
@@ -71,11 +70,12 @@ function Appointment(props) {
             <div className="">
               <div className="widget footer_widget">
                
-                <div className="site-navigation">
-                 
+              <div className="site-navigation">
+                <h5 className="footer-title"> &copy; Copyright VGSafe All Rights Reserved</h5>
                   <h5 className="footer-title">Contacts Us</h5>
                   <div className="white"><FaPhoneAlt/>0115523512</div>
-               
+                  <div className="white"><FaEnvelope/>vgsafemedicines@gmail.com</div>
+                
 
                  
                 </div>
