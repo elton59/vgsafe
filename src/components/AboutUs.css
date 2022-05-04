@@ -77,8 +77,7 @@ background-color:#0161b8 ;
 .mainaboutcard p{
   text-align: justify;
   text-justify: distribute;
-  text-align-last: left;
-  word-spacing:-2px;
+  word-break: break-all;
 
 } 
   @media screen and (max-width: 540px) {
@@ -154,6 +153,7 @@ background-color:#0161b8 ;
   {
       font-size: 25px;
       text-align: justify;
+      word-break: break-all;
   } 
   .mainabout {
       display: block;

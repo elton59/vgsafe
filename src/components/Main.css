@@ -166,10 +166,8 @@
 }
 .mainserviceheader p
 {
- 
-    text-align: justify;
-    
-    text-justify: inter-word;
+    text-align: left;
+    word-break: break-all;
    
 }
     .corouselsection {
@@ -213,16 +211,17 @@
         display:block;
         position: relative;
         width: 100%;     
-        left: 0%;
+        left: 0px;
         top:0px;
         height:400px;
     margin-bottom: 40px;
+    
 
     }
     .aboutusdescriptionsection p {
        
-    text-align: justify;
-        text-justify: distribute-all-lines;
+    text-align: left;
+    word-break: break-all;
     
     }
     .aboutus {
