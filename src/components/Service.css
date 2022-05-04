@@ -121,7 +121,8 @@
       padding: 10px;
     position: relative;
     left:0px;
-    
+    overflow-y: scroll;
+  
   }
   .servicecardtext
   {
