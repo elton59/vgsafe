@@ -79,6 +79,15 @@ function Appointment(props) {
 
                  
                 </div>
+                <br/><br/><br/>
+                <div className="site-navigation">
+                 
+               
+                 <div className="white" >Website developed by <a  style={{color:'pink',textDecoration:'none'}}href="https://yubuntutech.co.ke">Yubuntutech solutions </a></div>
+               
+
+                
+               </div>
               </div>
 
             </div>

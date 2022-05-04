@@ -5,7 +5,7 @@ import diabetes from '../assets/images/diabetes.png';
 import hypertension from '../assets/images/hypertension.png';
 import drugoutsource from '../assets/images/drugoutsource.png';
 import painManagement from '../assets/images/painmanagement.png';
-import {   FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import {   FaPhoneAlt, FaEnvelope  } from 'react-icons/fa';
 
 
 function Services() {
@@ -146,6 +146,15 @@ function Services() {
 
                  
                 </div>
+                <br/><br/><br/>
+                <div className="site-navigation">
+                 
+               
+                 <div className="white" >Website developed by <a  style={{color:'pink',textDecoration:'none'}}href="https://yubuntutech.co.ke">Yubuntutech solutions </a></div>
+               
+
+                
+               </div>
               </div>
 
             </div>

@@ -162,7 +162,9 @@
     display: inline-block;
     position:relative;
     width:98%;
-    left:1%
+    left:1%;
+    padding-left: 3px;
+    padding-right:3px
 }
 .mainserviceheader p
 {
@@ -215,7 +217,8 @@
         top:0px;
         height:400px;
     margin-bottom: 40px;
-    
+    padding-left: 3px;
+    padding-right:3px
 
     }
     .aboutusdescriptionsection p {

@@ -12,16 +12,17 @@ background-color:#0161b8 ;
   .aboutuscard_s
   {
 
-    width: 100%;
+    width: 98%;
     text-align: left; 
     display:inline-block;
-    height:495px;
-    margin:17px;
+    height:645px;
+    margin-top: 20px;
     padding: 10px;
+
   }
 .aboutuscardimgdiv_s{
     
-   
+   margin-top: 80px;
     max-width: 520px;
     margin-right: 0px;
     text-align: center;
@@ -104,7 +105,7 @@ background-color:#0161b8 ;
       display:block;
       height:1250px;
       padding: 10px;
-  
+      
       margin-left:0;
      overflow-y:scroll
     }
@@ -135,7 +136,7 @@ background-color:#0161b8 ;
     }  
     .aboutuscardtext_s
   {
-  
+   
     position: relative;
     top:5px;
     left:-18px;
@@ -145,6 +146,8 @@ background-color:#0161b8 ;
     font-family: arial;
     text-justify: inter-word;
    clear:both;
+   padding-left: 3px;
+   padding-right:3px
   
 
 

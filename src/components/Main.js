@@ -236,7 +236,7 @@ function Main() {
                 <div className="site-navigation">
                  
                
-                 <div className="white">Website developed by <a href="yubuntu.co.ke">Yubuntutech solutions </a></div>
+                 <div className="white" >Website developed by <a  style={{color:'pink',textDecoration:'none'}}href="https://yubuntutech.co.ke">Yubuntutech solutions </a></div>
                
 
                 
