@@ -143,7 +143,7 @@ function Main() {
         <div className="aboutusdescriptionsection">
           <h1>About Us</h1>
           <p>VG Safe Medicines is a healthcare-based organization focused on optimizing therapeutic outcomes and improving the quality of life in chronic conditions by ensuring safety, efficacy, and availability of drugs to clients.</p>
-          <button className="aboutusbutton">Read More</button>
+          <Link to="/AboutUs"> <button className="aboutusbutton">Read More</button></Link>
         </div>
 
       </div>
