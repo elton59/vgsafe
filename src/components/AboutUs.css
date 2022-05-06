@@ -94,7 +94,7 @@ background-color:#0161b8 ;
     
     .aboutuscard_s
     {
-      background-color: ;
+      
       width: 95%;
       text-align: center; 
       display:block;
@@ -115,8 +115,9 @@ background-color:#0161b8 ;
     .mainaboutcard p{
       text-align: left;
       font-size: 23px;
-      width: 300px;
+     overflow-wrap: break-word;
     word-break: keep-all;
+ 
     
     } 
     .aboutuscardimg_s{
