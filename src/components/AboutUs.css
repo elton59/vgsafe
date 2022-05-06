@@ -139,7 +139,8 @@ background-color:#0161b8 ;
     font-family: arial;
    clear:both;
    padding-left: 3px;
-   padding-right:3px
+   padding-right:3px;
+   overflow-y: scroll;
   
 
 
