@@ -181,13 +181,12 @@
     
         left:0px;
         width:360px;
+        height: 90px;
         text-align: center;
-        height:70px
     }
     .serviceheader h1
     {
-        left:0px;   
-       margin-left:10px;
+         padding: 20px;
         text-align: center;
     }
     .serviceflex
