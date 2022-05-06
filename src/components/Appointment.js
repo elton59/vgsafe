@@ -9,7 +9,7 @@ function Appointment(props) {
             <div className='Body'> 
 <div className='appointment'>
 <div class="container">
-    <h1>Book Appointment</h1>
+    <h2>Book Appointment</h2>
 <div className='formflex'>
   <form>
        <div className='formgroup'>
