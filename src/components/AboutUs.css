@@ -94,14 +94,14 @@ background-color:#0161b8 ;
     
     .aboutuscard_s
     {
-  
+      background-color: ;
       width: 95%;
       text-align: center; 
       display:block;
       height:1350px;
       padding: 10px;
       margin-left:0;
-  
+   overflow-y: scroll;
     }
   .aboutuscardimgdiv_s{
       
@@ -140,8 +140,7 @@ background-color:#0161b8 ;
    clear:both;
    padding-left: 3px;
    padding-right:3px;
-   overflow-y: scroll;
-  
+
 
 
   }
