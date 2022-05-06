@@ -81,10 +81,9 @@
       top:20px;
       left:190px;
        height:60px; 
-    
       text-align: center;
   width:800px;
-  text-decoration: underline;
+ 
   }
   .serviceflex
 {
@@ -181,15 +180,15 @@
    
     
         left:0px;
-        width:400px;
-    
+        width:360px;
         text-align: center;
+        height:70px
     }
     .serviceheader h1
     {
         left:0px;   
        margin-left:10px;
-        text-align: left;
+        text-align: center;
     }
     .serviceflex
   {

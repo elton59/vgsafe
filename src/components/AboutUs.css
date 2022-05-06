@@ -75,17 +75,12 @@ background-color:#0161b8 ;
     padding: 10px;
     background-color: #9ed15c;
 }  
-.mainaboutcard p{
-  text-align: justify;
-  text-justify: distribute;
-  word-break: break-all;
 
-} 
   @media screen and (max-width: 540px) {
     .aboutus_s
   {
   width:95%; 
-  margin-top: 70px;
+  margin-top: 25px;
   margin-left: 0%;
   vertical-align: baseline;
   box-shadow: 5px 5px 5spx 5px #888888;
@@ -103,26 +98,25 @@ background-color:#0161b8 ;
       width: 95%;
       text-align: center; 
       display:block;
-      height:1250px;
+      height:1350px;
       padding: 10px;
-      
       margin-left:0;
-     overflow-y:scroll
+  
     }
   .aboutuscardimgdiv_s{
       
-      
+      margin-top:-3px;
       max-width: 100%;
-      margin-right: 0px;
       text-align: center;
       font-family: arial;
      clear:both;
       
     }
     .mainaboutcard p{
-      text-align: justify;
-      text-justify: distribute;
-    
+      text-align: left;
+      font-size: 23px;
+      width: 300px;
+    word-break: keep-all;
     
     } 
     .aboutuscardimg_s{
@@ -132,19 +126,17 @@ background-color:#0161b8 ;
       padding-top:3%;
       display: inline; 
       position:relative;
-      left:-6px
+
     }  
     .aboutuscardtext_s
   {
-   
+ 
     position: relative;
     top:5px;
-    left:-18px;
-    width: 108%;
-    margin: 0px;
+    width: 97%;
+    margin: 10px;
     text-align: center;
     font-family: arial;
-    text-justify: inter-word;
    clear:both;
    padding-left: 3px;
    padding-right:3px
@@ -154,9 +146,9 @@ background-color:#0161b8 ;
   }
   .aboutus_s p
   {
-      font-size: 25px;
-      text-align: justify;
-      word-break: break-all;
+      font-size: 23px;
+      text-align: left;
+
   } 
   .mainabout {
       display: block;
