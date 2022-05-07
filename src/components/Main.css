@@ -11,6 +11,16 @@
     position:relative;
 
 }
+.aboutusbutton2 {
+    display: inline;
+    align-items: 'center';
+    background-color: #9ed15c;
+    color: #0161b8;
+    height: 50px;
+    width: 220px;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 30px;
+}
 .corouselsection {
 
    
@@ -71,6 +81,7 @@
     transition: all 0.2s ease-in-out;
     margin-bottom: 30px;
 }
+
 .mainservicescontainer {
 
     background-color: #0161b8;
@@ -141,7 +152,7 @@
     }
     .mainservicescontainer p {
 
-       font-size: 23px;
+       font-size: 20px;
        
     }
     .aboutusbutton {
@@ -153,6 +164,18 @@
         transition: all 0.2s ease-in-out;
         margin-top:-50px;
         display: inline;
+    }
+    .aboutusbutton2 {
+        display: inline;
+        align-items: 'center';
+        background-color: #9ed15c;
+        color: #0161b8;
+        height: 50px;
+        width: 220px;
+        transition: all 0.2s ease-in-out;
+        margin-bottom: 30px;
+        position: relative;
+        left:70px
     }
     .aboutusimg {
         margin:10px;
@@ -216,19 +239,19 @@
         clear:both;
         display:block;
         position: relative;
-        width: 100%;     
+        width: 95%;     
         left: 0px;
         top:0px;
         height:400px;
     margin-bottom: 40px;
-    padding-left: 3px;
-    padding-right:3px
+    padding-left: 10px;
+    padding-right:10px
 
     }
     .aboutusdescriptionsection p {
        
     text-align: left;
-     font-size:23px
+     font-size:20px
     
     }
     .aboutus {
