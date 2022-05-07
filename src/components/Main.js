@@ -151,8 +151,8 @@ function Main() {
       <div className="mainservicescontainer">
         <div className='mainserviceheader'>
       <h1>OUR SERVICES</h1>
-      <p>We provide medication therapy management and drug outsourcing services. &nbsp; &nbsp; <Link to="/Services"><br/>
-            <button className='readmore'>Read More</button>
+      <p>We provide medication therapy management and drug outsourcing services. &nbsp; &nbsp; <Link to="/Services"><br/><br/>
+            <button className='aboutusbutton' style={{position:'relative',left:'72px'}}>Read More</button>
             </Link></p></div>
         <div className="mainservice">
           <div className='mainservicecard'>
