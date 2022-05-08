@@ -73,6 +73,7 @@ left:100px
 }
         .navigationlink
         {
+         
           font-size:16px;
           font-family: 'Open Sans',sans-serif;
           position:relative;
@@ -83,7 +84,8 @@ left:100px
           color:#0161b8;;
           font-weight:900;
           text-transform: uppercase;
-          top:1px
+          top:1px;
+          left:11%
           
         }
         .navigationlogo
