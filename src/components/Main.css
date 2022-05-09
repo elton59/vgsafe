@@ -7,9 +7,10 @@
 {
     font-size:23px;
     position: relative;
-    left:600px;
+    left:7;
     top: 83px;
     width: 700px;
+   
 }
 .mainservicetitle
 { 
@@ -151,7 +152,7 @@
 @media screen and (max-width: 540px) {
     .aboutus-edit
 {
-    font-size:18px;
+    font-size:15px;
     position: relative;
     top: 23px;
     left:0px;
@@ -176,7 +177,7 @@
     }
     .mainservicescontainer h1 {
 
-        font-size: 18px;
+        font-size: 15px;
         
      }
     .aboutusbutton {
