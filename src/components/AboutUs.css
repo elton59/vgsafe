@@ -53,7 +53,7 @@ background-color:#0161b8 ;
 }
 .aboutus_s p
 {
-    font-size: 19px;
+    font-size: 23px;
 } 
 .mainabout {
     display: flex;
@@ -98,10 +98,12 @@ background-color:#0161b8 ;
       width: 95%;
       text-align: center; 
       display:block;
-      height:1350px;
+      height:1150px;
       padding: 10px;
       margin-left:0;
    overflow-y: scroll;
+
+  
     }
   .aboutuscardimgdiv_s{
       
@@ -110,6 +112,8 @@ background-color:#0161b8 ;
       text-align: center;
       font-family: arial;
      clear:both;
+    
+
       
     }
     .mainaboutcard p{
@@ -128,7 +132,11 @@ background-color:#0161b8 ;
       display: inline; 
       position:relative;
 
-    }  
+    } 
+    .aboutuscardtext_s h1
+  {
+    font-size: 20px;
+  } 
     .aboutuscardtext_s
   {
  

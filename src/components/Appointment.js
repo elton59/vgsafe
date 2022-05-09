@@ -14,11 +14,11 @@ function Appointment(props) {
   <form>
        <div className='formgroup'>
       <label>*First Name</label><br/>
-      <input type="text"   placeholder="*FistName" name="fname" />
+      <input type="text"   placeholder="*Fist Name" name="fname" />
       </div>
       <div className='formgroup'>
       <label>*Last Name</label><br/>
-      <input type="text"   placeholder="*LastName" name="fname"  />
+      <input type="text"   placeholder="*Last Name" name="fname"  />
       </div>
       <div className='formgroup'>
       <label>*Email</label><br/>
@@ -26,7 +26,7 @@ function Appointment(props) {
       </div>
       <div className='formgroup'>
       <label>*Phone Number</label><br/>
-      <input type="number"  placeholder="*PhoneNumber" name="fname" />
+      <input type="number"  placeholder="*Phone Number" name="fname" />
       </div>
       <div className='formgroup'>
       <label>*Date</label><br/>
