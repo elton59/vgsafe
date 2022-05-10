@@ -21,8 +21,8 @@ background-color:#0161b8 ;
 
   }
 .aboutuscardimgdiv_s{
-    
-   margin-top: 80px;
+    background-color: red;
+   margin-top: 30px;
     max-width: 520px;
     margin-right: 0px;
     text-align: center;
@@ -59,7 +59,7 @@ background-color:#0161b8 ;
     display: flex;
     flex: 1;
     width: 100%;
-    margin:0px;
+    margin-top:20px;
     height:90%;
   
   
@@ -74,9 +74,22 @@ background-color:#0161b8 ;
     margin: 15px;
     padding: 10px;
     background-color: #9ed15c;
-}  
+} 
+.aboutuscard_s-edit
+{
+  position: relative;
+  left:200px;
+  top:30px;
+} 
 
   @media screen and (max-width: 540px) {
+    .aboutuscard_s-edit
+{
+  position: relative;
+  left:10px;
+  top:-10px;
+  font-size: 10px;
+} 
     .aboutus_s
   {
   width:95%; 

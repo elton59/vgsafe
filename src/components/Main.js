@@ -138,7 +138,7 @@ function Main() {
       <>
       <div className="aboutus">
         <div className='aboutus-edit'>
-        <h1>About Us</h1>
+        <h1>ABOUT US</h1>
         </div>
         <div className="aboutusimgsection">
           <img src={aboutus2} className="aboutusimg" />

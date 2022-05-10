@@ -14,7 +14,7 @@ function Appointment(props) {
   <form>
        <div className='formgroup'>
       <label>*First Name</label><br/>
-      <input type="text"   placeholder="*Fist Name" name="fname" />
+      <input type="text"   placeholder="*First Name" name="fname" />
       </div>
       <div className='formgroup'>
       <label>*Last Name</label><br/>
