@@ -68,7 +68,7 @@ background-color:#0161b8 ;
 .mainaboutcard {
     flex-grow: 1;
     width: 300px;
-    text-align: center;
+    text-align: left;
     display: inline-block;
     height: 210px;
     margin: 15px;
